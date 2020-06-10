@@ -1,0 +1,16 @@
+﻿show
+help
+clear
+execute_script C:\Users\Zhenya\Desktop\file.txt
+insert 89
+Keshik
+323
+321
+1000
+дружит с Олегом
+true
+red
+Vitya
+191
+blue
+brown

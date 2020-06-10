@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact name="Laaab5:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Laaab5_jar</output-path>
+    <root id="root">
+      <element id="archive" name="Laaab5.jar">
+        <element id="module-output" name="Laaab5" />
+      </element>
+      <element id="library" level="project" name="gson-2.8.6" />
+    </root>
+  </artifact>
+</component>

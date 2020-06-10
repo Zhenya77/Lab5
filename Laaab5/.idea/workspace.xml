@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Laaab5:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eb5aab81-00ac-4e82-8afa-5283735c8647" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1b8jbK0GNNDkN4ynYsX2RetGKpX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/gson-2.8.6.jar!/" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Dragon" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Diana\JavaProjects\Laaab5\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Laaab5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb5aab81-00ac-4e82-8afa-5283735c8647" name="Default Changelist" comment="" />
+      <created>1588020685211</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588020685211</updated>
+      <workItem from="1588020689131" duration="10572000" />
+      <workItem from="1588031344945" duration="2155000" />
+      <workItem from="1588065439041" duration="26497000" />
+      <workItem from="1588104301337" duration="267000" />
+      <workItem from="1588105079253" duration="615000" />
+      <workItem from="1588170857790" duration="16819000" />
+      <workItem from="1588195437476" duration="3191000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="216" y="0" key="#Project_Structure" timestamp="1588020706940">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="216" y="0" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1588020706940" />
+    <state x="488" y="52" key="#com.intellij.ide.util.MemberChooser" timestamp="1588172435019">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="488" y="52" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1588172435019" />
+    <state x="479" y="253" width="407" height="238" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1588099997215">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="479" y="253" width="407" height="238" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.738@0.0.1366.738" timestamp="1588099997215" />
+    <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588190597789">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1588190597789" />
+    <state x="463" y="110" key="FileChooserDialogImpl" timestamp="1588021930295">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="110" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1588021930295" />
+    <state width="1323" height="367" key="GridCell.Tab.0.bottom" timestamp="1588198645653">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="367" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1588198645653" />
+    <state width="1323" height="367" key="GridCell.Tab.0.center" timestamp="1588198645653">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="367" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1588198645653" />
+    <state width="1323" height="367" key="GridCell.Tab.0.left" timestamp="1588198645653">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="367" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1588198645653" />
+    <state width="1323" height="367" key="GridCell.Tab.0.right" timestamp="1588198645653">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="367" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1588198645653" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1588021933118">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1588021933118" />
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1588075751733">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.738@0.0.1366.738" timestamp="1588075751733" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1588099530495">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1588099530495" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1588185534378">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1588185534378" />
+  </component>
+</project>
