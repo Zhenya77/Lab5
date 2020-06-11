@@ -8,7 +8,7 @@ import java.util.Scanner;
 /**
  * create new human
  *
- * @author Diana
+ * @author Zhenya
  */
 public class Dragonborn {
     public static boolean isFromScript;
