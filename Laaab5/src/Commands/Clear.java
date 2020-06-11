@@ -8,6 +8,11 @@ public class Clear implements CommandWithoutArg {
     String name = "clear";
     DragonCollection collection = new DragonCollection();
 
+    /**
+     * if collection is not empty than delete all dragons
+     *
+     * @param o
+     */
     @Override
     public void execute(Object o) {
         if (collection.getSize() == 0) System.out.println("Коллекция итак пустая.");

@@ -8,6 +8,11 @@ public class Help implements CommandWithoutArg {
     String name = "help";
     DragonCollection collection = new DragonCollection();
 
+    /**
+     * show list of all commands
+     *
+     * @param o
+     */
     @Override
     public void execute(Object o) {
         System.out.println("help : вывести справку по доступным командам\n" +

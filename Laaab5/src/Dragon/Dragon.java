@@ -87,6 +87,10 @@ public class Dragon implements Comparable {
         this.killer = killer;
     }
 
+    /**
+     *
+     * @return all dragon's parametres
+     */
     public String getInfo() {
         return "Дракон [id:" + id + "]:\n\t" + "Имя: " + name + "\n\tКоординаты:\n\t\tx: " + coordinates.getX() +
         "\n\t\ty: " + coordinates.getY() +  "\n\tДата cоздания: " + creationDate + "\n\tВозраст: " + age +

@@ -5,20 +5,16 @@ import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-/**
- * create new human
- *
- * @author Zhenya
- */
+
 public class Dragonborn {
     public static boolean isFromScript;
     Scanner scanner = new Scanner(System.in);
     String whyFailed = "";
     public static Dragon dragonFromScript;
     /**
-     * Reads input and therefore creates new human
+     * Creates new human using input information
      *
-     * @return new human object
+     * @return human with set parametres
      */
     public Dragon create() {
         Dragon dragon = new Dragon();
@@ -41,6 +37,11 @@ public class Dragonborn {
         return dragon;
     }
 
+    /**
+     * create dragon using information from the file
+     *
+     * @param pars
+     */
     public void createFromFile(Object pars) {
         try {
             ArrayList<String> params = (ArrayList) pars;
@@ -69,6 +70,11 @@ public class Dragonborn {
         }
     }
 
+    /**
+     * Set dragon's name
+     *
+     * @param dragon
+     */
     public void setName(Dragon dragon) {
         System.out.println("Введите имя дракона:");
         System.out.print("~ ");
@@ -76,6 +82,12 @@ public class Dragonborn {
         if (name.equals("") || name.equals(null)) this.setName(dragon);
         dragon.setName(name);
     }
+
+    /**
+     * set X coordinate for the dragon
+     *
+     * @param coords
+     */
 
     public void setCoordinateX(Coordinates coords) {
         try {
@@ -96,6 +108,12 @@ public class Dragonborn {
         }
     }
 
+    /**
+     * set Y coordinate for the dragon
+     *
+     * @param coords
+     */
+
     public void setCoordinateY(Coordinates coords) {
         try {
             System.out.println("Введите координату y:");
@@ -110,6 +128,11 @@ public class Dragonborn {
         }
     }
 
+    /**
+     * set dragon's age
+     *
+     * @param dragon
+     */
     public void setAge(Dragon dragon) {
         try {
             System.out.println("Введите возраст дракона:");
@@ -125,6 +148,12 @@ public class Dragonborn {
         }
     }
 
+    /**
+     * write your description of a dragon
+     *
+     * @param dragon
+     */
+
     public void setDescription(Dragon dragon) {
         System.out.println("Введите описание дракона.");
         System.out.print("~ ");
@@ -132,6 +161,12 @@ public class Dragonborn {
         if (des.equals("") || des.equals(null)) this.setDescription(dragon);
         else dragon.setDescription(des);
     }
+
+    /**
+     * set dragon's ability to speak (true/false)
+     *
+     * @param dragon
+     */
 
     public void setSpeaking(Dragon dragon) {
         System.out.println("Введите есть ли у дракона способность разговаривать(true/false):");
@@ -148,6 +183,12 @@ public class Dragonborn {
 
     }
 
+    /**
+     * set dragon's colour (GREEN, RED, BLUE, ORANGE, BROWN)
+     *
+     * @param dragon
+     */
+
     public void setColor(Dragon dragon) {
         System.out.println("Введите расцветку дракона(GREEN, RED, BLUE, ORANGE, BROWN):");
         System.out.print("~ ");
@@ -160,6 +201,12 @@ public class Dragonborn {
         }
     }
 
+    /**
+     * set a name for your human
+     *
+     * @param killer
+     */
+
     public void setPersonName(Person killer) {
         System.out.println("Введите имя убийцы:");
         System.out.print("~ ");
@@ -167,6 +214,12 @@ public class Dragonborn {
         if (name.equals("") || name.equals(null)) this.setPersonName(killer);
         killer.setName(name);
     }
+
+    /**
+     * set your human's height
+     *
+     * @param killer
+     */
 
     public void setHeight(Person killer) {
         try {
@@ -183,6 +236,12 @@ public class Dragonborn {
         }
     }
 
+    /**
+     * set your human's eye colour (GREEN, RED, BLUE, ORANGE, BROWN)
+     *
+     * @param killer
+     */
+
     public void setEyeColor(Person killer) {
         System.out.println("Введите цвет глаз убийцы(GREEN, RED, BLUE, ORANGE, BROWN):");
         System.out.print("~ ");
@@ -194,6 +253,12 @@ public class Dragonborn {
             this.setEyeColor(killer);
         }
     }
+
+    /**
+     * set your human's hair colour (GREEN, RED, BLUE, ORANGE, BROWN)
+     *
+     * @param killer
+     */
 
     public void setHairColor(Person killer) {
         System.out.println("Введите цвет волос убийцы(GREEN, RED, BLUE, ORANGE, BROWN):");
@@ -207,6 +272,14 @@ public class Dragonborn {
         }
     }
 
+    /**
+     * set a name for this dragon
+     * if name is empty, than throw throw exption
+     *
+     * @param dragon
+     * @param name
+     * @throws Exception
+     */
     public void setName(Dragon dragon, String name) throws Exception {
         if (name.equals("") || name.equals(null)) {
             whyFailed += "У дракона должно быть имя.\n";
@@ -214,6 +287,14 @@ public class Dragonborn {
         } else dragon.setName(name);
     }
 
+    /**
+     * set X coordinate for a drangon
+     * X cannot be empty or have higher value than 364
+     *
+     * @param coords
+     * @param x
+     * @throws Exception
+     */
     public void setCoordinateX(Coordinates coords, String x) throws Exception {
         try {
             if (x.equals("") || x.equals(null)) whyFailed += "У дракона должна быть координата x.\n";
@@ -230,7 +311,14 @@ public class Dragonborn {
             throw new Exception();
         }
     }
-
+    /**
+     * set Y coordinate for a drangon
+     * Y if float type and cannot be empty
+     *
+     * @param coords
+     * @param y
+     * @throws Exception
+     */
     public void setCoordinateY(Coordinates coords, String y) throws Exception {
         try {
             if (y.equals("") || y.equals(null)) {
@@ -244,6 +332,13 @@ public class Dragonborn {
         }
     }
 
+    /**
+     * set dragon age
+     * age cannot be empty and must be positive
+     *
+     * @param dragon
+     * @param age
+     */
 
     public void setAge(Dragon dragon, String age) {
         try {
@@ -263,12 +358,26 @@ public class Dragonborn {
         }
     }
 
+    /**
+     * write description of your dragon
+     * cannot be empty
+     *
+     * @param dragon
+     * @param des
+     */
     public void setDescription(Dragon dragon, String des) {
         if (des.equals("") || des.equals(null)) {
             whyFailed += "У дракона должно быть описание";
         } else dragon.setDescription(des);
     }
 
+    /**
+     * set your dragon's ability to speak
+     * must be true/false
+     *
+     * @param dragon
+     * @param speaking
+     */
     public void setSpeaking(Dragon dragon, String speaking) {
         if (speaking.equals(""))
             dragon.setSpeaking();
@@ -281,6 +390,13 @@ public class Dragonborn {
 
     }
 
+    /**
+     * set your dragon's colour
+     * must be (GREEN, RED, BLUE, ORANGE, BROWN)
+     *
+     * @param dragon
+     * @param color
+     */
     public void setColor(Dragon dragon, String color) {
         try {
             dragon.setColor(Color.valueOf(color.toUpperCase()));
@@ -290,6 +406,13 @@ public class Dragonborn {
         }
     }
 
+    /**
+     * set your human's name
+     * human must have a name
+     *
+     * @param killer
+     * @param name
+     */
     public void setPersonName(Person killer, String name) {
         if (name.equals("") || name.equals(null)) {
             whyFailed += ("У убийцы должно быть имя.\n:");
@@ -297,6 +420,13 @@ public class Dragonborn {
         } else killer.setName(name);
     }
 
+    /**
+     * set your human's height
+     * height is floate and must have positive value
+     *
+     * @param killer
+     * @param height
+     */
     public void setHeight(Person killer, String height) {
         try {
             if (height.equals("")) {
@@ -315,6 +445,13 @@ public class Dragonborn {
         }
     }
 
+    /**
+     * set your human's eye colour
+     * must be (GREEN, RED, BLUE, ORANGE, BROWN)
+     *
+     * @param killer
+     * @param color
+     */
     public void setEyeColor(Person killer, String color) {
         try {
             killer.setEyeColor(Color.valueOf(color.toUpperCase()));
@@ -324,6 +461,13 @@ public class Dragonborn {
         }
     }
 
+    /**
+     * set your human's hair colour
+     * must be (GREEN, RED, BLUE, ORANGE, BROWN)
+     *
+     * @param killer
+     * @param color
+     */
     public void setHairColor(Person killer, String color) {
         try {
             killer.setHairColor(Color.valueOf(color.toUpperCase()));

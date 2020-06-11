@@ -10,7 +10,6 @@ public class ReaderFromFile {
         try {
             String data = "";
             File file = new File(filename);
-            //List<String> strings = new ArrayList<String>();
             Scanner scanner = new Scanner(file);
             while (scanner.hasNextLine())
                 data += scanner.nextLine().trim() + "\n";

@@ -1,7 +1,5 @@
 package Controller;
 
-import javafx.scene.web.WebHistory;
-
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Map;
@@ -18,15 +16,32 @@ public class Commands {
         return commands.get(commandname);
     }
 
+    /**
+     * creates list of commands
+     *
+     * @param commands
+     */
     public void regist(Commandable... commands) {
         for (Commandable command : commands)
             Commands.commands.put(command.getName(), command);
     }
+
+    /**
+     * add used commands to history list
+     *
+     * @param commandName
+     */
     public void addToHistory(String commandName){
         if (commandName.equals("history") == false)
             history.add(commandName);
     }
 
+    /**
+     * execute certain command
+     * you can review command list by typing 'help'
+     *
+     * @param commandName
+     */
     public void executeCommand(String commandName) {
         String[] nameAndArgument = commandName.split(" ");
         if (!commandName.equals("")) {

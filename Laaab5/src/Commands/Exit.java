@@ -8,6 +8,11 @@ public class Exit implements CommandWithoutArg {
     String name = "exit";
     DragonCollection collection = new DragonCollection();
 
+    /**
+     * exit your program
+     *
+     * @param o
+     */
     @Override
     public void execute(Object o) {
         System.exit(0);

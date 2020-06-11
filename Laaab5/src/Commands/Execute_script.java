@@ -18,7 +18,12 @@ public class Execute_script implements Commandable {
     Commands invoker = new Commands();
     static private HashMap scripts = new HashMap();
 
-
+    /**
+     * executes script with the name written in command line
+     * executes script's name and script's names writen in this script are saved int static variable to prevent collisions
+     *
+     * @param arg
+     */
     @Override
     public void execute(Object arg) {
         scripts.put((String) arg, 1);

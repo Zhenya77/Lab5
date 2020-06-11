@@ -12,6 +12,10 @@ public class Replace_if_greater implements CommandWithObject {
     DragonCollection collection = new DragonCollection();
     Dragonborn creater = new Dragonborn();
 
+    /**
+     * replace current dragon with new one if parametres values are greater
+     * @param args
+     */
     @Override
     public void execute(Object args) {
         try {

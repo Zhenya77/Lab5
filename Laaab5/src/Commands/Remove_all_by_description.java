@@ -12,6 +12,11 @@ public class Remove_all_by_description implements Commandable {
     DragonCollection collection = new DragonCollection();
     String name = "remove_all_by_description";
 
+    /**
+     * delete dragon from the collection with this description
+     *
+     * @param arg
+     */
     @Override
     public void execute(Object arg) {
         try {

@@ -12,6 +12,11 @@ public class Remove_lower_key implements Commandable {
     DragonCollection collection = new DragonCollection();
     String name = "remove_lower_key";
 
+    /**
+     * delete all dragons from the collection with ids lower then appointed
+     *
+     * @param arg
+     */
     @Override
     public void execute(Object arg) {
         try {

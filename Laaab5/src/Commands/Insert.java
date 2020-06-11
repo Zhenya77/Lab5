@@ -12,6 +12,11 @@ public class Insert implements CommandWithObject {
     DragonCollection collection = new DragonCollection();
     Dragonborn creater = new Dragonborn();
 
+    /**
+     * creates a new dragon if this id is free to use
+     *
+     * @param arg
+     */
     @Override
     public void execute(Object arg) {
         try {
@@ -35,6 +40,12 @@ public class Insert implements CommandWithObject {
         return name;
     }
 
+    /**
+     * check if drangon with this id exists
+     *
+     * @param arg
+     * @return
+     */
     @Override
     public boolean check(Object arg) {
         return collection.isKeyFree((Integer) arg);

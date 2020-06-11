@@ -10,6 +10,11 @@ public class Remove_key implements Commandable {
     String name = "remove_key";
     DragonCollection collection = new DragonCollection();
 
+    /**
+     * delete dragon with this id number
+     *
+     * @param arg
+     */
     @Override
     public void execute(Object arg) {
         try {

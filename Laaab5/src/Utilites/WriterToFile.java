@@ -26,6 +26,12 @@ public class WriterToFile {
         }
     }
 
+    /**
+     * write information about dragon into the file
+     *
+     * @param dragons
+     * @throws FileNotFoundException
+     */
     public static void writeDragonToFile(Hashtable<Integer, Dragon> dragons) throws FileNotFoundException {
         Gson gson = new Gson();
         try {

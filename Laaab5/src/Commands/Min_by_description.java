@@ -11,6 +11,11 @@ public class Min_by_description implements CommandWithoutArg {
     String name = "min_by_description";
     DragonCollection collection = new DragonCollection();
 
+    /**
+     * shows dragon from the collection with shortest description
+     *
+     * @param arg
+     */
     @Override
     public void execute(Object arg) {
         if (collection.getSize() == 0) System.out.println("Коллекция пустая.");

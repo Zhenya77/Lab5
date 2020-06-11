@@ -32,16 +32,33 @@ public class DragonCollection {
         collection.clear();
     }
 
+    /**
+     * create new dragon with set id and put it into collection
+     *
+     * @param ind
+     * @param dragon
+     */
     public void insert(Integer ind, Dragon dragon) {
         if (this.isKeyFree(ind))
             collection.put(ind, dragon);
     }
 
+    /**
+     * update info about dragon with this id
+     *
+     * @param ind
+     * @param dragon
+     */
     public void update(Integer ind, Dragon dragon) {
         if (!this.isKeyFree(ind))
             collection.put(ind, dragon);
     }
 
+    /**
+     * remove dragon from the collection using id
+     *
+     * @param ind
+     */
     public void remove(Integer ind) {
         Enumeration keys = collection.keys();
         while (keys.hasMoreElements()) {
@@ -52,7 +69,11 @@ public class DragonCollection {
         }
     }
 
-
+    /**
+     *
+     * @param ind
+     * @return false if dragon with this id exist, false otherwise
+     */
     public boolean isKeyFree(Integer ind) {
         try {
             for (Map.Entry<Integer, Dragon> entry : collection.entrySet())
@@ -65,24 +86,15 @@ public class DragonCollection {
         }
     }
 
-//    public void removeByIds(int... ids) {
-//        for (int id : ids) {
-//            Iterator<Map.Entry<Integer, Dragon>> it = collection.entrySet().iterator();
-//            while (it.hasNext()) {
-//
-//                System.out.println(ind);
-//                if (dragons.get(ind).getId() < Integer.parseInt((String) arg)) {
-//                    tumb = true;
-//                    collection.remove(ind);
-//                }
-//            }
-//        }
-//    }
 
     public int getSize() {
         return collection.size();
     }
 
+    /**
+     *
+     * @return collection size and date of creation
+     */
     public String getInfo() {
         return "Тип коллекции: Hashtable;\nKоличество элементов коллекции: " + this.getSize() + ";\nДата создания кол"
                 + "лекции: " + this.getDateCreation() + ".";

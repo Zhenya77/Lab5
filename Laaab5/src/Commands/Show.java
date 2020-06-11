@@ -11,6 +11,11 @@ public class Show implements CommandWithoutArg {
     String name = "show";
     DragonCollection collection = new DragonCollection();
 
+    /**
+     * show all element of this collection
+     *
+     * @param o
+     */
     @Override
     public void execute(Object o) {
         if (collection.getSize() == 0) System.out.println("Коллекция пустая.");

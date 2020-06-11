@@ -10,6 +10,11 @@ import java.util.ArrayList;
 public class History implements CommandWithoutArg {
     String name = "history";
 
+    /**
+     * show list of previously used commands in current session
+     *
+     * @param o
+     */
     @Override
     public void execute(Object o) {
         ArrayList<String> history = Commands.getHistory();

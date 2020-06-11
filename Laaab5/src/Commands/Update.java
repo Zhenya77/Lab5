@@ -12,6 +12,11 @@ public class Update implements CommandWithObject {
     Dragonborn creater = new Dragonborn();
     DragonCollection collection = new DragonCollection();
 
+    /**
+     * update dragons parametres with appointed id number
+     *
+     * @param arg
+     */
     @Override
     public void execute(Object arg) {
         try {
